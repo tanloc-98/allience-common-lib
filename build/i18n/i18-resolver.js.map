@@ -1,0 +1,1 @@
+{"version":3,"file":"i18-resolver.js","sourceRoot":"","sources":["../../src/i18n/i18-resolver.ts"],"names":[],"mappings":";;;AAAA,6CAAoG;AAEvF,QAAA,YAAY,GAAG;IACxB,IAAI,2BAAa,CAAC,CAAC,MAAM,EAAE,GAAG,CAAC,CAAC;IAChC,IAAI,4BAAc,CAAC,CAAC,eAAe,CAAC,CAAC;IACrC,IAAI,4BAAc,EAAE;IACpB,oCAAsB;CACzB,CAAC"}

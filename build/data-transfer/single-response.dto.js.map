@@ -1,0 +1,1 @@
+{"version":3,"file":"single-response.dto.js","sourceRoot":"","sources":["../../src/data-transfer/single-response.dto.ts"],"names":[],"mappings":";;;AAAA,yDAAoD;AAEpD,MAAa,cAAc;IAA3B;QACI,WAAM,GAAG,iCAAc,CAAC,OAAO,CAAC;QAChC,eAAU,GAAG,GAAG,CAAC;QACjB,YAAO,GAAG,EAAE,CAAC;QACb,cAAS,GAAG,IAAI,IAAI,EAAE,CAAC,eAAe,EAAE,CAAC;IAG7C,CAAC;CAAA;AAPD,wCAOC"}

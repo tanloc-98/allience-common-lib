@@ -1,0 +1,1 @@
+{"version":3,"file":"single-response.dto.d.ts","sourceRoot":"","sources":["../../src/data-transfer/single-response.dto.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,oBAAoB,CAAC;AAEpD,qBAAa,cAAc,CAAC,CAAC;IACzB,MAAM,iBAA0B;IAChC,UAAU,SAAO;IACjB,OAAO,SAAM;IACb,SAAS,SAAgC;IACzC,IAAI,EAAE,CAAC,GAAG,IAAI,CAAC;IACf,IAAI,CAAC,EAAE,MAAM,CAAC;CACjB"}

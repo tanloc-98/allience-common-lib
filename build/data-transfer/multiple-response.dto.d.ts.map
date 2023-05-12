@@ -1,0 +1,1 @@
+{"version":3,"file":"multiple-response.dto.d.ts","sourceRoot":"","sources":["../../src/data-transfer/multiple-response.dto.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,cAAc,EAAE,MAAM,oBAAoB,CAAC;AAElE,qBAAa,gBAAgB,CAAC,CAAC,CAAE,SAAQ,YAAY;IACjD,MAAM,CAAC,EAAE,cAAc,CAAC,CAAC,CAAC,CAAC;CAC9B"}

@@ -1,0 +1,2 @@
+export declare const TenantRequest: () => <TFunction extends Function, Y>(target: object | TFunction, propertyKey?: string | symbol, descriptor?: TypedPropertyDescriptor<Y>) => void;
+//# sourceMappingURL=tenant-injectable.decorator.d.ts.map
