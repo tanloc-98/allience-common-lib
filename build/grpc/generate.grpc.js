@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateGRPCClient = exports.generateGRPCServer = void 0;
 const microservices_1 = require("@nestjs/microservices");
 const path_1 = require("path");
-const generateGRPCServer = (packageName, dir, port, hostname = 'localhost') => {
+const generateGRPCServer = (packageName, port, hostname = 'localhost') => {
     return {
         transport: microservices_1.Transport.GRPC,
         options: {
@@ -14,8 +14,8 @@ const generateGRPCServer = (packageName, dir, port, hostname = 'localhost') => {
     };
 };
 exports.generateGRPCServer = generateGRPCServer;
-const generateGRPCClient = (serviceName, packageName, dir, port, hostname = 'localhost') => {
-    return Object.assign({ name: serviceName }, (0, exports.generateGRPCServer)(packageName, dir, port, hostname));
+const generateGRPCClient = (serviceName, packageName, port, hostname = 'localhost') => {
+    return Object.assign({ name: serviceName }, (0, exports.generateGRPCServer)(packageName, port, hostname));
 };
 exports.generateGRPCClient = generateGRPCClient;
 //# sourceMappingURL=generate.grpc.js.map

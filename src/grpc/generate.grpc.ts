@@ -3,7 +3,7 @@
 import { GrpcOptions, Transport } from '@nestjs/microservices';
 import { join } from 'path';
 
-export const generateGRPCServer = (packageName: string, dir: string, port: number, hostname = 'localhost') => {
+export const generateGRPCServer = (packageName: string, port: number, hostname = 'localhost') => {
     return {
         transport: Transport.GRPC,
         options: {
@@ -17,12 +17,11 @@ export const generateGRPCServer = (packageName: string, dir: string, port: numbe
 export const generateGRPCClient = (
     serviceName: string,
     packageName: string,
-    dir: string,
     port: number,
     hostname = 'localhost',
 ) => {
     return {
         name: serviceName,
-        ...generateGRPCServer(packageName, dir, port, hostname),
+        ...generateGRPCServer(packageName, port, hostname),
     } as GrpcOptions;
 };
