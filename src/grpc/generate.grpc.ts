@@ -9,7 +9,7 @@ export const generateGRPCServer = (packageName: string, dir: string, port: numbe
         options: {
             url: `${hostname}:${port}`,
             package: packageName,
-            protoPath: join(dir, '..', `${packageName}/${packageName}.proto`),
+            protoPath: join('node_modules/allience-common-proto/proto/',`${packageName}.proto`),
         },
     } as GrpcOptions;
 };

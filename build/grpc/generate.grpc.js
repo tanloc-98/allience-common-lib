@@ -9,7 +9,7 @@ const generateGRPCServer = (packageName, dir, port, hostname = 'localhost') => {
         options: {
             url: `${hostname}:${port}`,
             package: packageName,
-            protoPath: (0, path_1.join)(dir, '..', `${packageName}/${packageName}.proto`),
+            protoPath: (0, path_1.join)('node_modules/allience-common-proto/proto/', `${packageName}.proto`),
         },
     };
 };
